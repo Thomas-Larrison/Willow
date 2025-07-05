@@ -1,0 +1,9 @@
+pandas
+pandas-ta
+requests
+websockets
+python-dotenv
+sqlalchemy
+psycopg2-binary
+rich
+pycoingecko

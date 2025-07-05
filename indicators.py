@@ -70,7 +70,7 @@ class Indicators:
             score += 20
         if 30 < indicators['RSI'] < 70:
             score += 20
-        if indicators['close'] < indicators['close'] * 0.995:
+        if indicators['close'] < indicators['EMA_9'] * 0.995:
             score += 20
         if indicators['OBV'] > 0:
             score += 20
